@@ -59,7 +59,7 @@ loader = transforms.Compose(
 )
 
 original_img = load_image("annahathaway.png")
-style_img = load_image("style.jpg")
+style_img = load_image("style.png")
 
 # initialized generated as white noise or clone of original image.
 # Clone seemed to work better for me.
